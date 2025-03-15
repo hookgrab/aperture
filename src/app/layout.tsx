@@ -16,6 +16,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "HookGrab",
   description: "Test you webhooks in Real-Time",
+	other: {
+		"go-import": "hg.atrin.dev/proto mod https://github.com/hookgrab/hg-proto",
+	}
 };
 
 export default function RootLayout({
