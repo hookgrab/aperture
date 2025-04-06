@@ -19,7 +19,7 @@ env:
 jobs:
   build-api:
     name: Build and Push React production image to github
-    runs-on: ubuntu-latest
+    runs-on: blacksmith-4vcpu-ubuntu-2204
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
